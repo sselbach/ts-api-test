@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ts-api-test"
+version = "0.0.1"
+description = 'Scripts for testing the TrustSource API'
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+keywords = []
+authors = [
+  { name = "Sören Selbach", email = "ssc@eacg.de" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "requests",
+]
+
+[project.scripts]
+v1-test-modules = "ts_api_test.v1.modules:main"
+

@@ -1,0 +1,6 @@
+-   id: v1-modules
+    name: Test v1 /modules
+    description: Tests the /modules endpoint of the v1 API
+    entry: v1-test-modules
+    language: python
+    pass_filenames: false
