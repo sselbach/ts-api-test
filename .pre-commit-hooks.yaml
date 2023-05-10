@@ -3,4 +3,4 @@
     description: Tests the /modules endpoint of the v1 API
     entry: v1-test-modules
     language: python
-    pass_filenames: true
+    pass_filenames: false
