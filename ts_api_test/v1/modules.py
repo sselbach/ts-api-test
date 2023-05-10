@@ -8,7 +8,7 @@ from ts_api_test.v1 import BASE_URL
 
 def main(argv: Sequence[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--api_key", nargs=1, type=str, help="API Key for the v1 API")
+    parser.add_argument("api_key_file", nargs=1, type=str, help="File containing the API Key (v1)")
     args = parser.parse_args(argv)
 
     print(args.api_key)
