@@ -1,8 +1,0 @@
--   id: v1-modules
-    name: Test v1 /modules
-    description: Tests the /modules endpoint of the v1 API
-    entry: v1-test-modules
-    files: ".v1_api_key"
-    language: python
-    pass_filenames: true
-    always_run: false

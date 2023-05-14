@@ -1,1 +1,0 @@
-BASE_URL = "https://app.trustsource.io/api/v1"
