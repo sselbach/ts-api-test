@@ -31,3 +31,7 @@ jobs:
         env:
           API_BASE_URL: "https://master.dev.trustsource.io/api/v1"
           API_KEY: ${{ secrets.API_KEY_V1 }}
+
+      - name: Test if secrets are hidden in log
+        run: |
+          echo ${{ secrets.TESTSECRET}}
