@@ -29,4 +29,5 @@ jobs:
         run: |
           pytest
         env:
-          api-key: ${{ secrets.API_KEY_V1 }}
+          API_BASE_URL: "https://master.dev.trustsource.io/api/v1"
+          API_KEY: ${{ secrets.API_KEY_V1 }}
